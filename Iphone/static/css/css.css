@@ -1,0 +1,167 @@
+body {
+            background: url("back.jpg");
+        }
+        .img-icloud {
+            padding: 4px;
+        }
+        .icloud-header {
+            margin: 0 auto;
+            color: white;
+        }
+        .icloud-header a {
+            float: right;
+        }
+
+        .container-two {
+            padding-top: 40px;
+            text-align: center;
+            margin: 0 auto !important;
+            width: 340px;
+        }
+        .container-two img {
+            padding-top: 18px;
+        }
+        .container-two h1 {
+            margin-top: 20px;
+            font-family: 'Helvetica Neue LT Std 45 Light', serif;
+            font-size: 32px;
+            color: white;
+            font-weight: lighter;
+        }
+        .form-logi {
+            padding-top: -100px;
+            overflow: hidden;
+            margin: 0 auto;
+            width: 324px;
+            height: 90px;
+            border-radius: 8px;
+            border: 1px solid #89A1AF;
+            background: white;
+            color: #333333;
+        }
+        .input-one {
+            border-bottom: 1px solid #C8D2D5;
+            outline: none;
+            width: 100%;
+            border-right: none;
+            border-left: none;
+            border-top: none;
+            height: 40px;
+            padding-left: 14px;
+            background: none;
+            font-size: 16px;
+            color: black;
+            font-family: 'Raleway', sans-serif;
+        }
+        .input-two {
+            outline: #89A1AF;
+            width: 307px;
+            height: 40px;
+            background: transparent;
+            font-size: 16px;
+            color: black;
+            margin-left: 11px;
+            font-family: 'Raleway', sans-serif;
+            border: none;
+        }
+        .input-button {
+            margin-top: 10px;
+            background: url("download.png");
+            outline: none;
+            color: transparent;
+            width: 26px;
+            height: 26px;
+            border: none;
+            margin-left: -32px;
+        }
+        .input-ckb {
+            width: 16px;
+            height: 16px;
+        }
+        .aci {
+            white-space: nowrap;
+            position: static;
+            font-size: 15px;
+            color: white;
+            font-family: 'Helvetica Neue LT Std 45 Light', serif;
+            font-weight: 300;
+            text-decoration: none;
+            margin-top: -10px;
+        }
+        .img-log {
+            margin-top: 20px;
+        }
+        .img-2020 {
+            margin-top: 20px;
+        }
+        .eqc-ps {
+            letter-spacing: 1px;
+            margin-top: 13px;
+            font-family: 'Helvetica Neue LT Std 45 Light', serif;
+            font-size: 12px;
+            text-decoration: underline;
+            color: white;
+            font-weight: normal;
+        }
+        a {
+            text-decoration: none;
+        }
+        .spn1020 {
+            cursor: default;
+            font-size: 12px;
+            font-family: 'Helvetica Neue LT Std 45 Light', serif;
+            color: white;
+            text-decoration: none;
+        }
+        .spn2010 {
+            letter-spacing: 1px;
+            font-family: 'Helvetica Neue LT Std 45 Light', serif;
+            font-size: 13px;
+            font-weight: 100;
+            text-decoration: underline;
+            color: white;
+        }
+        .footer {
+            width: 100%;
+            margin-top: 10.5%;
+        }
+        .footer ul {
+            float: right;
+            margin-top: 10px;
+        }
+        .footer li {
+            border-right: 1px solid rgba(255, 255, 255, 0.5);
+            margin: 9px;
+            display: inline;
+        }
+        .footer a {
+            font-weight: bold;
+            text-shadow: #3a1800 0 3px 25px;
+            padding-right: 10px;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 12px;
+            font-family: 'Raleway', sans-serif;
+        }
+        .footer img {
+            margin-top: 5px;
+        }
+        form {
+            margin-bottom: 1em;
+        }
+        div {
+            display: block;
+        }
+        .container-two h1{
+                max-width: 380px;
+                margin: 15px auto 15px auto;
+                letter-spacing: -0.11px;
+                font-size: 25px;
+            }
+        body {
+            background-image:url(back.jpg);
+           background-attachment: fixed;
+            background-repeat: no-repeat;
+        }
+        #ta{
+            font-size: 20px;
+        }

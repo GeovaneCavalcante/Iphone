@@ -1,0 +1,3 @@
+source /home/geovane/Documents/Django/bin/activate
+sudo apt-get install idle
+

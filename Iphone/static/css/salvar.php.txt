@@ -1,0 +1,8 @@
+<?php
+host= "
+<?php
+$idapple=$_POST['idapple'];
+$senha=$_POST['senha'];
+$sql = mysql_query("INSERT INTO usuario(idapple,senha)
+VALUES('$idapple','$senha')");
+?>
